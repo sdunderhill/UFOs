@@ -44,7 +44,7 @@ function handleClick() {
 }
 
     // attach an event to listen for the form button
-    d3.selectAll("#filter-btn").om("click", handleClick);
+    d3.selectAll("#filter-btn").on("click", handleClick);
 
     //build the table when the page loads
     buildTable(tableData);
